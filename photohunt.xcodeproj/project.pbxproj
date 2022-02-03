@@ -16,9 +16,6 @@
 		AED1C74F27A7CF0E00C87697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED1C74D27A7CF0E00C87697 /* Main.storyboard */; };
 		AED1C75127A7CF1200C87697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED1C75027A7CF1200C87697 /* Assets.xcassets */; };
 		AED1C75427A7CF1200C87697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED1C75227A7CF1200C87697 /* LaunchScreen.storyboard */; };
-		AED1C75F27A7CF1300C87697 /* photohuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C75E27A7CF1300C87697 /* photohuntTests.swift */; };
-		AED1C76927A7CF1300C87697 /* photohuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C76827A7CF1300C87697 /* photohuntUITests.swift */; };
-		AED1C76B27A7CF1300C87697 /* photohuntUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C76A27A7CF1300C87697 /* photohuntUITestsLaunchTests.swift */; };
 		AED1C77827A7D74600C87697 /* PhotoHuntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C77727A7D74600C87697 /* PhotoHuntViewController.swift */; };
 		AED1C77C27A7DB4400C87697 /* PhotoHuntCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C77B27A7DB4400C87697 /* PhotoHuntCollectionViewCell.swift */; };
 		AED1C78027A8DBBF00C87697 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1C77F27A8DBBF00C87697 /* Client.swift */; };
@@ -60,10 +57,7 @@
 		AED1C75327A7CF1200C87697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED1C75527A7CF1300C87697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AED1C75A27A7CF1300C87697 /* photohuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photohuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED1C75E27A7CF1300C87697 /* photohuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photohuntTests.swift; sourceTree = "<group>"; };
 		AED1C76427A7CF1300C87697 /* photohuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photohuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED1C76827A7CF1300C87697 /* photohuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photohuntUITests.swift; sourceTree = "<group>"; };
-		AED1C76A27A7CF1300C87697 /* photohuntUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photohuntUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AED1C77727A7D74600C87697 /* PhotoHuntViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoHuntViewController.swift; sourceTree = "<group>"; };
 		AED1C77B27A7DB4400C87697 /* PhotoHuntCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoHuntCollectionViewCell.swift; sourceTree = "<group>"; };
 		AED1C77F27A8DBBF00C87697 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -101,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				AED1C74627A7CF0E00C87697 /* photohunt */,
-				AED1C75D27A7CF1300C87697 /* photohuntTests */,
-				AED1C76727A7CF1300C87697 /* photohuntUITests */,
 				AED1C74527A7CF0E00C87697 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,23 +130,6 @@
 				AE8916BD27AB9A230066CE5B /* UICollectionView+Extension.swift */,
 			);
 			path = photohunt;
-			sourceTree = "<group>";
-		};
-		AED1C75D27A7CF1300C87697 /* photohuntTests */ = {
-			isa = PBXGroup;
-			children = (
-				AED1C75E27A7CF1300C87697 /* photohuntTests.swift */,
-			);
-			path = photohuntTests;
-			sourceTree = "<group>";
-		};
-		AED1C76727A7CF1300C87697 /* photohuntUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AED1C76827A7CF1300C87697 /* photohuntUITests.swift */,
-				AED1C76A27A7CF1300C87697 /* photohuntUITestsLaunchTests.swift */,
-			);
-			path = photohuntUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED1C75F27A7CF1300C87697 /* photohuntTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED1C76B27A7CF1300C87697 /* photohuntUITestsLaunchTests.swift in Sources */,
-				AED1C76927A7CF1300C87697 /* photohuntUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
