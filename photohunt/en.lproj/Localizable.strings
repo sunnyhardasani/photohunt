@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  photohunt
+
+  Created by Sunny Hardasani on 2/2/22.
+  
+*/
+
+"SEARCH_IMAGES" = "Search Images";
+"NO_RESULTS" = "No results";
